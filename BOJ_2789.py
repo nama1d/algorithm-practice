@@ -1,8 +1,7 @@
 word = input()
 cam = "CAMBRIDGE"
 
-for i in word:
-    for j in cam:
-        word = word.replace(j, "")
+for i in cam:
+    word = word.replace(i, "")
         
 print(word)
